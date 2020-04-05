@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.css" rel="stylesheet" type="text/css">
+        <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+    </head>
+    <body>
+       
+        {% for section in sections %}
+            {{ section[0] | safe }}
+            {{ section[1] | safe }}
+        {% endfor %}
+        {{ script|safe }}
+        {{ div|safe }}
+
+    </body>
+</html>

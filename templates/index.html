@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID-19 Tracker by County</title>
+        <link type="text/css" rel="stylesheet" href="/static/style.css"/>
+        <!-- <script language="javascript" type="text/javascript" src="{{ url_for('static', filename='action.js') }}"></script> -->
+    </head>
+        <h1>COVID-19 Tracker by County</h1>
+    <body>
+        <form action="/button" method="post">
+            <label>County: <input id="county-id" name="county" type="text"></label>
+            <label>State: <input id="state-id" name="state" type="text"></label>
+            <input type="submit" value="Submit">
+        </form>
+        
+        <h4>Metropolitan Clusters</h4>
+            <a class="cities" href="{{url_for('cluster', city='Seattle, Washington')}}">Seattle, WA</a>
+            <a class="cities" href="{{url_for('cluster', city='Boston, Massachusetts')}}">Boston, MA</a>
+            <a class="cities" href="{{url_for('cluster', city='New York City, New York')}}">New York City, NY</a>
+            <a class="cities" href="{{url_for('cluster', city='Philadelphia, Pennsylvania')}}">Philadelphia, PA</a>
+            <a class="cities" href="{{url_for('cluster', city='Los Angeles, California')}}">Los Angeles, CA</a>
+            <a class="cities" href="{{url_for('cluster', city='New Orleans, Louisiana')}}">New Orleans, LA</a>
+            <a class="cities" href="{{url_for('cluster', city='Detroit, Michigan')}}">Detroit, MI</a>
+            <a class="cities" href="{{url_for('cluster', city='Atlanta, Georgia')}}">Atlanta, GA</a>
+            <a class="cities" href="{{url_for('cluster', city='San Francisco, California')}}">San Francisco, CA</a>
+            <a class="cities" href="{{url_for('cluster', city='Chicago, Illinois')}}">Chicago, IL</a>
+            <a class="cities" href="{{url_for('cluster', city='Nashville, Tennessee')}}">Nashville, TN</a>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,4 @@
+cron:
+- description: "daily download job (right now every two hours)"
+  url: /setup
+  schedule: every 10 minutes

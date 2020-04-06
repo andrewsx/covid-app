@@ -9,7 +9,10 @@ METRO_AREAS = {
         "Detroit, Michigan" : ["Wayne, Michigan", "Oakland, Michigan", "Macomb, Michigan", "Washtenaw, Michigan", "Kent, Michigan", "Genesee, Michigan", "Ingham, Michigan", "Monroe, Michigan"],
         "San Francisco, California" : ["Alameda, California", "Contra Costa, California", "Marin, California", "Napa, California", "San Francisco, California", "Solano, California", "San Mateo, California", "Santa Clara, California", "Sonoma, California"],
         "Nashville, Tennessee" : ["Davidson, Tennessee", "Cheatham, Tennessee", "Dickson, Tennessee", "Maury, Tennessee", "Montgomery, Tennessee", "Robertson, Tennessee", "Rutherford, Tennessee", "Sumner, Tennessee"],
-        "Chicago, Illinois" : ["Cook, Illinois", "Lake, Illinois", "McHenry, Illinois", "DuPage, Illinois", "Kane, Illinois", "Kendall, Illinois", "Grundy, Illinois", "Will, Illinois", "Kankakee, Illinois", "Lake, Indiana", "Porter, Indiana", "LaPorte, Indiana"]
+        "Chicago, Illinois" : ["Cook, Illinois", "Lake, Illinois", "McHenry, Illinois", "DuPage, Illinois", "Kane, Illinois", "Kendall, Illinois", "Grundy, Illinois", "Will, Illinois", "Kankakee, Illinois", "Lake, Indiana", "Porter, Indiana", "LaPorte, Indiana"],
+        "Washington, DC" : ["Montgomery, Maryland", "Arlington, Virginia", "Fairfax, Virginia", "Prince William, Virginia", "Loudoun, Virginia", "Howard, Maryland", "Prince George's, Maryland", "Charles, Maryland", "Anne Arundel, Maryland", "Baltimore, Maryland"],
+        "Dallas, TX" : ["Tarrant, Texas", "Denton, Texas", "Collin, Texas", "Rockwall, Texas", "Kaufman, Texas", "Ellis, Texas", "Johnson, Texas", "Parker, Texas", "Hood, Texas"],
+        "Miami, FL" : ["Miami-Dade, Florida", "Monroe, Florida", "Broward, Florida", "Palm Beach, Florida", "Collier, Florida", "Hendry, Florida"]
     }
 
 

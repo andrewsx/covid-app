@@ -97,7 +97,8 @@ def button():
             state = state[0].upper() + state[1:5].lower() + " " + state[5].upper() + state[6:].lower()
         else:
             state = state[0].upper() + state[1:].lower()
-        county = county[0].upper() + county[1:].lower()
+        if county != 'New York City':
+            county = county[0].upper() + county[1:].lower()
         if len(state) == 2:
             abbv = state.upper()
             if abbv in ABBV_TO_STATE:
